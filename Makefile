@@ -1,5 +1,5 @@
 
-.PHONY: mac linux docker run
+.PHONY: mac linux docker-build docker-run
 
 MAC_OUT_DIR := cmd/mac
 LINUX_OUT_DIR := cmd/linux
