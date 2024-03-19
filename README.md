@@ -31,6 +31,7 @@ Example usages:
   docker run -it --env IPSTACK_API_KEY=<API_KEY> geoip:latest -i www.google.com
 ```
 Update `<API_KEY>` with your IPStack API key.
+
 Use the `-i` flag to specify the IP address to look up. You can also use a domain name, and the application will resolve the IP address for you. 
 
 
@@ -45,6 +46,7 @@ For macOS:
 make mac
 ```
 This will make the binary `geoip` available in the `cmd/mac` directory.
+
 For Linux:
 ```bash
 make linux
@@ -59,6 +61,7 @@ export IPSTACK_API_KEY=<API_KEY>
 ./geoip -i www.google.com
 ```
 Update `<API_KEY>` with your IPStack API key.
+
 Use the `-i` flag to specify the IP address to look up. You can also use a domain name, and the application will resolve the IP address for you. 
 
 
