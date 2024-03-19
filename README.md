@@ -1,12 +1,17 @@
 # Geo IP Lookup
 
-This is a simple Go application that looks up the geographic location of an IP address using the [IPStack](https://ipstack.com/documentation) API and obtains the lattitude and longitude of an IP address.
+This is a simple Go application that looks up the geographic location of an IP address using the [IPStack](https://ipstack.com/documentation) API and obtains the latitude and longitude of an IP address.
 
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
 
 * You have installed the latest version of [Go](https://golang.org/dl/), [Docker](https://www.docker.com/products/docker-desktop), and [Make](https://www.gnu.org/software/make/).
+* Obtain the [IPStack](https://ipstack.com/documentation) API Key by creating an acccount. Free version available.
+
+## Security
+Currently, the API Key for IPStack is stored as an environment variable. A more secure option would be to use a secret manager such as [Vault](https://www.vaultproject.io/)
+  
 
 ## Testing the App
 ```bash
